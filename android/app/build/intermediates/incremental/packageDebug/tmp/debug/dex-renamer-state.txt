@@ -1,0 +1,10 @@
+#Fri Jun 05 13:50:25 IST 2020
+path.2=classes3.dex
+path.1=classes2.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=/home/deepak/Desktop/NewProject/AwesomeProject/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes3.dex
+base.1=/home/deepak/Desktop/NewProject/AwesomeProject/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes2.dex
+base.0=/home/deepak/Desktop/NewProject/AwesomeProject/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex

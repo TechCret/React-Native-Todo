@@ -1,0 +1,489 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.awesomeproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:4:5-66
+11-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:5:5-67
+12-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:5:22-65
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:6:5-78
+13-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:6:22-76
+14    <uses-permission android:name="android.permission.READ_SMS" />
+14-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:7:5-66
+14-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:7:22-64
+15    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+15-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:8:5-69
+15-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:8:22-67
+16    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+16-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:9:5-71
+16-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:9:22-69
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:10:5-80
+17-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:10:22-78
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-79
+18-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:11:5-81
+19-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:11:22-78
+20    <uses-permission android:name="android.permission.GET_TASKS" />
+20-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:13:5-68
+20-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:13:22-65
+21    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+21-->[:react-native-secure-storage] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/react-native-secure-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-74
+21-->[:react-native-secure-storage] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/react-native-secure-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:22-71
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:17.0.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/0d81868f4e28796651049eb6ada47684/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:17.0.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/0d81868f4e28796651049eb6ada47684/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+25        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+25-->[com.google.android.gms:play-services-maps:17.0.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/0d81868f4e28796651049eb6ada47684/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+26    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+26-->[com.google.firebase:firebase-iid:20.1.7] /home/deepak/.gradle/caches/transforms-2/files-2.1/d547957b3dec73e4efc36ddef7d61a5f/firebase-iid-20.1.7/AndroidManifest.xml:26:5-82
+26-->[com.google.firebase:firebase-iid:20.1.7] /home/deepak/.gradle/caches/transforms-2/files-2.1/d547957b3dec73e4efc36ddef7d61a5f/firebase-iid-20.1.7/AndroidManifest.xml:26:22-79
+27    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+27-->[com.google.android.gms:play-services-measurement:17.4.1] /home/deepak/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:26:5-110
+27-->[com.google.android.gms:play-services-measurement:17.4.1] /home/deepak/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:26:22-107
+28
+29    <application
+29-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:12:5-40:19
+30        android:name="com.awesomeproject.MainApplication"
+30-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:13:13-44
+31        android:allowBackup="false"
+31-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:17:13-40
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.1.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/5644a94d9f003a0b90383b8c36ca5e5e/core-1.1.0/AndroidManifest.xml:24:18-86
+33        android:icon="@mipmap/ic_launcher"
+33-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:15:13-47
+34        android:label="@string/app_name"
+34-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:14:13-45
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:16:13-58
+36        android:theme="@style/AppTheme" >
+36-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:18:13-44
+37        <service android:name="com.awesomeproject.MyTaskService" />
+37-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:19:9-67
+37-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:19:18-65
+38        <service android:name="com.awesomeproject.HeartbeatEventService" />
+38-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:20:9-21:74
+38-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:21:17-72
+39
+40        <activity
+40-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:22:9-33:20
+41            android:name="com.awesomeproject.MainActivity"
+41-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:24:17-45
+42            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+42-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:26:17-94
+43            android:label="@string/app_name"
+43-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:25:17-49
+44            android:launchMode="singleTask"
+44-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:27:17-48
+45            android:windowSoftInputMode="adjustResize" >
+45-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:28:17-59
+46            <intent-filter>
+46-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:29:13-32:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:30:17-68
+47-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:30:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:31:17-76
+49-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:31:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+52-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:34:9-85
+52-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:34:19-83
+53
+54        <receiver android:name="com.awesomeproject.NetworkChangeReceiver" >
+54-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:35:9-39:20
+54-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:35:19-56
+55            <intent-filter>
+55-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:36:13-38:29
+56                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+56-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:37:17-78
+56-->/home/deepak/Desktop/NewProject/AwesomeProject/android/app/src/main/AndroidManifest.xml:37:25-76
+57            </intent-filter>
+58        </receiver>
+59
+60        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+60-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:9-111
+60-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:18-108
+61        <service
+61-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:9-23:19
+62            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+62-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-95
+63            android:exported="false" >
+63-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-37
+64            <intent-filter>
+64-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-22:29
+65                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+65-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:17-78
+65-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:25-75
+66            </intent-filter>
+67        </service>
+68
+69        <receiver
+69-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:9-32:20
+70            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+70-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:13-96
+71            android:exported="true"
+71-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:13-36
+72            android:permission="com.google.android.c2dm.permission.SEND" >
+72-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:28:13-73
+73            <intent-filter>
+73-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-31:29
+74                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+74-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:17-81
+74-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:25-78
+75            </intent-filter>
+76        </receiver>
+77
+78        <meta-data
+78-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:34:9-36:36
+79            android:name="firebase_messaging_auto_init_enabled"
+79-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-64
+80            android:value="true" />
+80-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:36:13-33
+81        <meta-data
+81-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:37:9-39:32
+82            android:name="com.google.firebase.messaging.default_notification_channel_id"
+82-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-89
+83            android:value="" />
+83-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-29
+84        <meta-data
+84-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:40:9-42:47
+85            android:name="com.google.firebase.messaging.default_notification_color"
+85-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:41:13-84
+86            android:resource="@color/white" />
+86-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:42:13-44
+87
+88        <receiver android:name="com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver" />
+88-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:16:9-92
+88-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:16:19-89
+89
+90        <service
+90-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:18:9-21:72
+91            android:name="com.transistorsoft.tsbackgroundfetch.FetchJobService"
+91-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:19:13-80
+92            android:exported="true"
+92-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:20:13-36
+93            android:permission="android.permission.BIND_JOB_SERVICE" />
+93-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:21:13-69
+94
+95        <receiver android:name="com.transistorsoft.tsbackgroundfetch.BootReceiver" >
+95-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:23:9-28:20
+95-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:23:19-83
+96            <intent-filter>
+96-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:24:13-27:29
+97                <action android:name="android.intent.action.BOOT_COMPLETED" />
+97-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:25:17-79
+97-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:25:25-76
+98                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+98-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:26:17-84
+98-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:26:25-81
+99            </intent-filter>
+100        </receiver>
+101
+102        <service
+102-->[:react-native-background-job] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/react-native-background-job/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:9-18:72
+103            android:name="com.pilloxa.backgroundjob.BackgroundJob"
+103-->[:react-native-background-job] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/react-native-background-job/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-67
+104            android:exported="true"
+104-->[:react-native-background-job] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/react-native-background-job/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-36
+105            android:permission="android.permission.BIND_JOB_SERVICE" />
+105-->[:react-native-background-job] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/react-native-background-job/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-69
+106        <service
+106-->[:react-native-background-job] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/react-native-background-job/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:9-21:38
+107            android:name="com.pilloxa.backgroundjob.ExactJob"
+107-->[:react-native-background-job] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/react-native-background-job/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-62
+108            android:enabled="true" />
+108-->[:react-native-background-job] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/react-native-background-job/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-35
+109        <service
+109-->[:react-native-background-job] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/react-native-background-job/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:9-24:38
+110            android:name="com.pilloxa.backgroundjob.ReactNativeEventStarter$MyHeadlessJsTaskService"
+110-->[:react-native-background-job] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/react-native-background-job/android/build/intermediates/library_manifest/release/AndroidManifest.xml:23:13-101
+111            android:enabled="true" />
+111-->[:react-native-background-job] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/react-native-background-job/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:13-35
+112        <service
+112-->[:react-native-background-task] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/react-native-background-task/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-14:38
+113            android:name="com.jamesisaac.rnbackgroundtask.HeadlessTaskService"
+113-->[:react-native-background-task] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/react-native-background-task/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-79
+114            android:enabled="true" />
+114-->[:react-native-background-task] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/react-native-background-task/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-35
+115        <service
+115-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:17:9-20:72
+116            android:name="com.evernote.android.job.v21.PlatformJobService"
+116-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:18:13-75
+117            android:exported="false"
+117-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:19:13-37
+118            android:permission="android.permission.BIND_JOB_SERVICE" />
+118-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:20:13-69
+119        <service
+119-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:21:9-23:40
+120            android:name="com.evernote.android.job.v14.PlatformAlarmService"
+120-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:22:13-77
+121            android:exported="false" />
+121-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:23:13-37
+122
+123        <receiver
+123-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:25:9-34:20
+124            android:name="com.evernote.android.job.v14.PlatformAlarmReceiver"
+124-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:26:13-78
+125            android:exported="false" >
+125-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:27:13-37
+126            <intent-filter>
+126-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:28:13-33:29
+127
+128                <!-- Keep the filter for legacy intents -->
+129                <action android:name="com.evernote.android.job.v14.RUN_JOB" />
+129-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:31:17-79
+129-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:31:25-76
+130                <action android:name="net.vrallev.android.job.v14.RUN_JOB" />
+130-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:32:17-78
+130-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:32:25-75
+131            </intent-filter>
+132        </receiver>
+133        <receiver
+133-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:35:9-44:20
+134            android:name="com.evernote.android.job.JobBootReceiver"
+134-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:36:13-68
+135            android:exported="false" >
+135-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:37:13-37
+136            <intent-filter>
+136-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:38:13-43:29
+137                <action android:name="android.intent.action.BOOT_COMPLETED" />
+137-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:25:17-79
+137-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:25:25-76
+138                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+138-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:40:17-82
+138-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:40:25-79
+139                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+139-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:41:17-82
+139-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:41:25-79
+140                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+140-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:26:17-84
+140-->[tsbackgroundfetch-0.4.5.aar] /home/deepak/.gradle/caches/transforms-2/files-2.1/ed64c2e8d810b54e62d816a8c12d8c33/tsbackgroundfetch-0.4.5/AndroidManifest.xml:26:25-81
+141            </intent-filter>
+142        </receiver>
+143
+144        <service
+144-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:46:9-54:19
+145            android:name="com.evernote.android.job.gcm.PlatformGcmService"
+145-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:47:13-75
+146            android:enabled="false"
+146-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:48:13-36
+147            android:exported="true"
+147-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:49:13-36
+148            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+148-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:50:13-93
+149            <intent-filter>
+149-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:51:13-53:29
+150                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+150-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:52:17-87
+150-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:52:25-84
+151            </intent-filter>
+152        </service>
+153        <service
+153-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:55:9-57:40
+154            android:name="com.evernote.android.job.JobRescheduleService"
+154-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:56:13-73
+155            android:exported="false" />
+155-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:57:13-37
+156        <!--
+157             FirebaseMessagingService performs security checks at runtime,
+158             but set to not exported to explicitly avoid allowing another app to call it.
+159        -->
+160        <service
+160-->[com.google.firebase:firebase-messaging:20.1.7] /home/deepak/.gradle/caches/transforms-2/files-2.1/6444a0236a301f5aa7ef26de217d4c16/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:28:9-34:19
+161            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+161-->[com.google.firebase:firebase-messaging:20.1.7] /home/deepak/.gradle/caches/transforms-2/files-2.1/6444a0236a301f5aa7ef26de217d4c16/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:29:13-82
+162            android:exported="false" >
+162-->[com.google.firebase:firebase-messaging:20.1.7] /home/deepak/.gradle/caches/transforms-2/files-2.1/6444a0236a301f5aa7ef26de217d4c16/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:30:13-37
+163            <intent-filter android:priority="-500" >
+163-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-22:29
+164                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+164-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:17-78
+164-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:25-75
+165            </intent-filter>
+166        </service>
+167        <service
+167-->[com.google.firebase:firebase-messaging:20.1.7] /home/deepak/.gradle/caches/transforms-2/files-2.1/6444a0236a301f5aa7ef26de217d4c16/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:35:9-41:19
+168            android:name="com.google.firebase.components.ComponentDiscoveryService"
+168-->[com.google.firebase:firebase-messaging:20.1.7] /home/deepak/.gradle/caches/transforms-2/files-2.1/6444a0236a301f5aa7ef26de217d4c16/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:36:13-84
+169            android:directBootAware="true"
+169-->[com.google.firebase:firebase-common:19.3.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/1d6df1e5ba412a7499cf29d0e0896797/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+170            android:exported="false" >
+170-->[com.google.firebase:firebase-messaging:20.1.7] /home/deepak/.gradle/caches/transforms-2/files-2.1/6444a0236a301f5aa7ef26de217d4c16/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:37:13-37
+171            <meta-data
+171-->[com.google.firebase:firebase-messaging:20.1.7] /home/deepak/.gradle/caches/transforms-2/files-2.1/6444a0236a301f5aa7ef26de217d4c16/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:38:13-40:85
+172                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+172-->[com.google.firebase:firebase-messaging:20.1.7] /home/deepak/.gradle/caches/transforms-2/files-2.1/6444a0236a301f5aa7ef26de217d4c16/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:39:17-119
+173                android:value="com.google.firebase.components.ComponentRegistrar" />
+173-->[com.google.firebase:firebase-messaging:20.1.7] /home/deepak/.gradle/caches/transforms-2/files-2.1/6444a0236a301f5aa7ef26de217d4c16/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:40:17-82
+174            <meta-data
+174-->[com.google.firebase:firebase-datatransport:17.0.3] /home/deepak/.gradle/caches/transforms-2/files-2.1/b5802a94eee29c3c24fa995ec1e9bb99/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+175                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+175-->[com.google.firebase:firebase-datatransport:17.0.3] /home/deepak/.gradle/caches/transforms-2/files-2.1/b5802a94eee29c3c24fa995ec1e9bb99/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+176                android:value="com.google.firebase.components.ComponentRegistrar" />
+176-->[com.google.firebase:firebase-datatransport:17.0.3] /home/deepak/.gradle/caches/transforms-2/files-2.1/b5802a94eee29c3c24fa995ec1e9bb99/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+177            <meta-data
+177-->[com.google.android.gms:play-services-measurement-api:17.4.1] /home/deepak/.gradle/caches/transforms-2/files-2.1/17a7ece950741a755abfeed58077a9c1/play-services-measurement-api-17.4.1/AndroidManifest.xml:30:13-32:85
+178                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+178-->[com.google.android.gms:play-services-measurement-api:17.4.1] /home/deepak/.gradle/caches/transforms-2/files-2.1/17a7ece950741a755abfeed58077a9c1/play-services-measurement-api-17.4.1/AndroidManifest.xml:31:17-139
+179                android:value="com.google.firebase.components.ComponentRegistrar" />
+179-->[com.google.android.gms:play-services-measurement-api:17.4.1] /home/deepak/.gradle/caches/transforms-2/files-2.1/17a7ece950741a755abfeed58077a9c1/play-services-measurement-api-17.4.1/AndroidManifest.xml:32:17-82
+180            <meta-data
+180-->[com.google.firebase:firebase-iid:20.1.7] /home/deepak/.gradle/caches/transforms-2/files-2.1/d547957b3dec73e4efc36ddef7d61a5f/firebase-iid-20.1.7/AndroidManifest.xml:32:13-34:85
+181                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+181-->[com.google.firebase:firebase-iid:20.1.7] /home/deepak/.gradle/caches/transforms-2/files-2.1/d547957b3dec73e4efc36ddef7d61a5f/firebase-iid-20.1.7/AndroidManifest.xml:33:17-96
+182                android:value="com.google.firebase.components.ComponentRegistrar" />
+182-->[com.google.firebase:firebase-iid:20.1.7] /home/deepak/.gradle/caches/transforms-2/files-2.1/d547957b3dec73e4efc36ddef7d61a5f/firebase-iid-20.1.7/AndroidManifest.xml:34:17-82
+183            <meta-data
+183-->[com.google.firebase:firebase-installations:16.3.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/c7c7934cc207c3d1a3a55f190f19739f/firebase-installations-16.3.0/AndroidManifest.xml:17:13-19:85
+184                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+184-->[com.google.firebase:firebase-installations:16.3.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/c7c7934cc207c3d1a3a55f190f19739f/firebase-installations-16.3.0/AndroidManifest.xml:18:17-127
+185                android:value="com.google.firebase.components.ComponentRegistrar" />
+185-->[com.google.firebase:firebase-installations:16.3.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/c7c7934cc207c3d1a3a55f190f19739f/firebase-installations-16.3.0/AndroidManifest.xml:19:17-82
+186        </service>
+187        <service
+187-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/59638accaee2d681a62d79c18c759ea7/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+188            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+188-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/59638accaee2d681a62d79c18c759ea7/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+189            android:exported="false" >
+189-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/59638accaee2d681a62d79c18c759ea7/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+190            <meta-data
+190-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/59638accaee2d681a62d79c18c759ea7/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+191                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+191-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/59638accaee2d681a62d79c18c759ea7/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+192                android:value="cct" />
+192-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/59638accaee2d681a62d79c18c759ea7/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+193        </service>
+194        <service
+194-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+195            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+195-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+196            android:exported="false"
+196-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+197            android:permission="android.permission.BIND_JOB_SERVICE" >
+197-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+198        </service>
+199
+200        <receiver
+200-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+201            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+201-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+202            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+202-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+203        <uses-library
+203-->[com.google.android.gms:play-services-maps:17.0.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/0d81868f4e28796651049eb6ada47684/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+204            android:name="org.apache.http.legacy"
+204-->[com.google.android.gms:play-services-maps:17.0.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/0d81868f4e28796651049eb6ada47684/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+205            android:required="false" />
+205-->[com.google.android.gms:play-services-maps:17.0.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/0d81868f4e28796651049eb6ada47684/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+206
+207        <receiver
+207-->[com.google.firebase:firebase-iid:20.1.7] /home/deepak/.gradle/caches/transforms-2/files-2.1/d547957b3dec73e4efc36ddef7d61a5f/firebase-iid-20.1.7/AndroidManifest.xml:37:9-44:20
+208            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+208-->[com.google.firebase:firebase-iid:20.1.7] /home/deepak/.gradle/caches/transforms-2/files-2.1/d547957b3dec73e4efc36ddef7d61a5f/firebase-iid-20.1.7/AndroidManifest.xml:38:13-78
+209            android:exported="true"
+209-->[com.google.firebase:firebase-iid:20.1.7] /home/deepak/.gradle/caches/transforms-2/files-2.1/d547957b3dec73e4efc36ddef7d61a5f/firebase-iid-20.1.7/AndroidManifest.xml:39:13-36
+210            android:permission="com.google.android.c2dm.permission.SEND" >
+210-->[com.google.firebase:firebase-iid:20.1.7] /home/deepak/.gradle/caches/transforms-2/files-2.1/d547957b3dec73e4efc36ddef7d61a5f/firebase-iid-20.1.7/AndroidManifest.xml:40:13-73
+211            <intent-filter>
+211-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-31:29
+212                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+212-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:17-81
+212-->[:react-native-firebase_messaging] /home/deepak/Desktop/NewProject/AwesomeProject/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:25-78
+213            </intent-filter>
+214        </receiver>
+215
+216        <activity
+216-->[com.google.android.gms:play-services-base:17.0.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/45bb801ab1148052b41001ba0c7a905f/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+217            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+217-->[com.google.android.gms:play-services-base:17.0.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/45bb801ab1148052b41001ba0c7a905f/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+218            android:exported="false"
+218-->[com.google.android.gms:play-services-base:17.0.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/45bb801ab1148052b41001ba0c7a905f/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+219            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+219-->[com.google.android.gms:play-services-base:17.0.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/45bb801ab1148052b41001ba0c7a905f/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+220
+221        <provider
+221-->[com.google.firebase:firebase-common:19.3.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/1d6df1e5ba412a7499cf29d0e0896797/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+222            android:name="com.google.firebase.provider.FirebaseInitProvider"
+222-->[com.google.firebase:firebase-common:19.3.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/1d6df1e5ba412a7499cf29d0e0896797/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+223            android:authorities="com.awesomeproject.firebaseinitprovider"
+223-->[com.google.firebase:firebase-common:19.3.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/1d6df1e5ba412a7499cf29d0e0896797/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+224            android:exported="false"
+224-->[com.google.firebase:firebase-common:19.3.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/1d6df1e5ba412a7499cf29d0e0896797/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+225            android:initOrder="100" />
+225-->[com.google.firebase:firebase-common:19.3.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/1d6df1e5ba412a7499cf29d0e0896797/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+226
+227        <receiver
+227-->[com.google.android.gms:play-services-measurement:17.4.1] /home/deepak/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:29:9-33:20
+228            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+228-->[com.google.android.gms:play-services-measurement:17.4.1] /home/deepak/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:30:13-85
+229            android:enabled="true"
+229-->[com.google.android.gms:play-services-measurement:17.4.1] /home/deepak/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:31:13-35
+230            android:exported="false" >
+230-->[com.google.android.gms:play-services-measurement:17.4.1] /home/deepak/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:32:13-37
+231        </receiver>
+232
+233        <service
+233-->[com.google.android.gms:play-services-measurement:17.4.1] /home/deepak/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:35:9-38:40
+234            android:name="com.google.android.gms.measurement.AppMeasurementService"
+234-->[com.google.android.gms:play-services-measurement:17.4.1] /home/deepak/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:36:13-84
+235            android:enabled="true"
+235-->[com.google.android.gms:play-services-measurement:17.4.1] /home/deepak/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:37:13-35
+236            android:exported="false" />
+236-->[com.google.android.gms:play-services-measurement:17.4.1] /home/deepak/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:38:13-37
+237        <service
+237-->[com.google.android.gms:play-services-measurement:17.4.1] /home/deepak/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:39:9-43:72
+238            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+238-->[com.google.android.gms:play-services-measurement:17.4.1] /home/deepak/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:40:13-87
+239            android:enabled="true"
+239-->[com.google.android.gms:play-services-measurement:17.4.1] /home/deepak/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:41:13-35
+240            android:exported="false"
+240-->[com.google.android.gms:play-services-measurement:17.4.1] /home/deepak/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:42:13-37
+241            android:permission="android.permission.BIND_JOB_SERVICE" />
+241-->[com.google.android.gms:play-services-measurement:17.4.1] /home/deepak/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:43:13-69
+242
+243        <meta-data
+243-->[com.google.android.gms:play-services-basement:17.0.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/53624ea5f8c231d70a1b1d8cda18fbb2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+244            android:name="com.google.android.gms.version"
+244-->[com.google.android.gms:play-services-basement:17.0.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/53624ea5f8c231d70a1b1d8cda18fbb2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+245            android:value="@integer/google_play_services_version" />
+245-->[com.google.android.gms:play-services-basement:17.0.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/53624ea5f8c231d70a1b1d8cda18fbb2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+246        <!--
+247             Receives GooglePlay execution requests and forwards them to the
+248             appropriate internal service.
+249        -->
+250        <service
+250-->[com.firebase:firebase-jobdispatcher:0.8.5] /home/deepak/.gradle/caches/transforms-2/files-2.1/9ad68dff2ae9812f4aa066af8f22fea0/jetified-firebase-jobdispatcher-0.8.5/AndroidManifest.xml:32:9-39:19
+251            android:name="com.firebase.jobdispatcher.GooglePlayReceiver"
+251-->[com.firebase:firebase-jobdispatcher:0.8.5] /home/deepak/.gradle/caches/transforms-2/files-2.1/9ad68dff2ae9812f4aa066af8f22fea0/jetified-firebase-jobdispatcher-0.8.5/AndroidManifest.xml:33:13-73
+252            android:exported="true"
+252-->[com.firebase:firebase-jobdispatcher:0.8.5] /home/deepak/.gradle/caches/transforms-2/files-2.1/9ad68dff2ae9812f4aa066af8f22fea0/jetified-firebase-jobdispatcher-0.8.5/AndroidManifest.xml:34:13-36
+253            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+253-->[com.firebase:firebase-jobdispatcher:0.8.5] /home/deepak/.gradle/caches/transforms-2/files-2.1/9ad68dff2ae9812f4aa066af8f22fea0/jetified-firebase-jobdispatcher-0.8.5/AndroidManifest.xml:35:13-93
+254            <intent-filter>
+254-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:51:13-53:29
+255                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+255-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:52:17-87
+255-->[com.evernote:android-job:1.1.11] /home/deepak/.gradle/caches/transforms-2/files-2.1/65137af99bb88da8b8b76712045d0bac/jetified-android-job-1.1.11/AndroidManifest.xml:52:25-84
+256            </intent-filter>
+257        </service>
+258    </application>
+259
+260</manifest>
